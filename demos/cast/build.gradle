@@ -50,10 +50,6 @@ android {
         }
     }
 
-    packagingOptions {
-        exclude("META-INF/*.kotlin_module")
-    }
-
     lintOptions {
         // The demo app isn't indexed and doesn't have translations.
         disable 'GoogleAppIndexingWarning','MissingTranslation'

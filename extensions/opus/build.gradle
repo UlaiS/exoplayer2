@@ -21,10 +21,6 @@ android {
         }
         androidTest.assets.srcDir '../../testdata/src/test/assets/'
     }
-
-    packagingOptions {
-        exclude("META-INF/*.kotlin_module")
-    }
 }
 
 dependencies {

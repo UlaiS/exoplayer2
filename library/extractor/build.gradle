@@ -20,10 +20,6 @@ android {
         }
     }
 
-    packagingOptions {
-        exclude("META-INF/*.kotlin_module")
-    }
-
     sourceSets.test.assets.srcDir '../../testdata/src/test/assets/'
 }
 

@@ -43,10 +43,6 @@ android {
         }
     }
 
-    packagingOptions {
-        exclude("META-INF/*.kotlin_module")
-    }
-
     lintOptions {
         // This demo app does not have translations.
         disable 'MissingTranslation'

@@ -25,10 +25,6 @@ android {
             }
         }
     }
-
-    packagingOptions {
-        exclude("META-INF/*.kotlin_module")
-    }
 }
 
 // Configure the native build only if libgav1 is present to avoid gradle sync
