@@ -116,7 +116,7 @@ import org.checkerframework.checker.nullness.qual.RequiresNonNull;
  *         <li>Corresponding method: {@link #setControllerHideDuringAds(boolean)}
  *         <li>Default: {@code true}
  *       </ul>
- *   <li><b>{@code show_buffering}</b> - Whether the buffering spinner is displayed when the player
+ *   <li><b>{@code show_buffering_change}</b> - Whether the buffering spinner is displayed when the player
  *       is buffering. Valid values are {@code never}, {@code when_playing} and {@code always}.
  *       <ul>
  *         <li>Corresponding method: {@link #setShowBuffering(int)}
@@ -380,7 +380,7 @@ public class PlayerView extends FrameLayout implements AdViewProvider {
         controllerHideOnTouch =
             a.getBoolean(R.styleable.PlayerView_hide_on_touch, controllerHideOnTouch);
         controllerAutoShow = a.getBoolean(R.styleable.PlayerView_auto_show, controllerAutoShow);
-        showBuffering = a.getInteger(R.styleable.PlayerView_show_buffering, showBuffering);
+        showBuffering = a.getInteger(R.styleable.PlayerView_show_buffering_change, showBuffering);
         keepContentOnPlayerReset =
             a.getBoolean(
                 R.styleable.PlayerView_keep_content_on_player_reset, keepContentOnPlayerReset);
