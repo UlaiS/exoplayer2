@@ -50,6 +50,7 @@ dependencies {
     testImplementation 'com.google.truth:truth:' + truthVersion
     testImplementation 'org.robolectric:robolectric:' + robolectricVersion
     testImplementation project(modulePrefix + 'testutils')
+    testImplementation "com.google.truth.extensions:truth-java8-extension:1.0.1"
 }
 
 ext {
